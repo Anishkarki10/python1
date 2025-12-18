@@ -199,15 +199,104 @@
 #     if isinstance(i,str):
 #         print(f"Hello {i}")
 
-a=["ram","shyam"]
-lst=[]
-for i in a:
-    lst.append("DR. "+i)
-print(lst)
+# a=["ram","shyam"]
+# b=[]
+# for i in a: 
+#     b.append("DR "+i)
         
+# print(b)
 
-    
+# a=[1,2,3,4,5,6,7,8,9,10]
+# b=[]
+# square=1
+# for i in a:
+#     square=i*i
+#     b.append(square)
+# print(b)
+
+# lst1=[111, 32, -9, -45, -17, 9, 85, -10]
+# lst2=[]
+# for i in lst1:
+#     if i>0:
+#         lst2.append(i)
+# print(lst2)
+# lst = [0, 1, 2, 3, 4, 5, 6]
+
+# for i in lst:
+#     if i == 6 or i == 3:
+#         continue
+#     print(i)
+
+# a=[1,2,3,4,5,'an','vv']
+# b=[]
+# c=[]
+# for i in a:
+#    if isinstance(i,int):
+#       b.append(i)
+#    else:
+#       c.append(i)
+      
+# print(c)
+# print(b)
+
+# for i in range(5):
+#       print(i)
+# else:
+#       print("done")
+
+# for i in range(105,-7,-7):
+#    print(i)
+
+# string = "py;th* o:n ! ;py * t*h:o !n"
+# bad = [';', ':', '!', "*"]
+# newstr=''
+# for i in string:
+#    if i not in bad:
+#       newstr+=i
+# a=newstr.replace(" ","")
+# print(a)
+# b=[]
+# c=[]
+# a=int(input("Enter a Number: "))
+# for i in range(a):
+#    if i%2==0:
+#       b.append(i)
+#    else:
+#       c.append(i)
+# print(len(b))
+# print(len(c))
+# sum3 = 0  
+# sum5 = 0 
+
+# for i in range(3, 99):
+#     if i % 3 == 0:
+#         sum3 += i
+#     elif i % 5 == 0:
+#         sum5 += i
+
+# print("Sum of numbers divisible by 3:", sum3)
+# print("Sum of numbers divisible by 5:", sum5)
+# e=0
+# o=0
+# for i in range(1,101):
+#    if i%2==0:
+#       e+=i
+#    else:
+#       o+=i
+# print(o)
+# print(e)
+# a=int(input("Enter a number: "))
+# if str(a) == str(a)[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+a=input("Enter a string : ")
+b=['a','e','i','o','u']
+c=''
+for i in a:
+   if i not in b:
+      c+=i
+print(c)
 
 
-
-    

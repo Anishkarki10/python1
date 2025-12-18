@@ -291,12 +291,25 @@
 # else:
 #     print("Not a palindrome")
 
-a=input("Enter a string : ")
-b=['a','e','i','o','u']
-c=''
-for i in a:
-   if i not in b:
-      c+=i
-print(c)
+# a=input("Enter a string : ")
+# b=['a','e','i','o','u']
+# c=''
+# for i in a:
+#    if i not in b:
+#       c+=i
+# print(c)
+
+# num=int(input('Enter a Number : '))
+# newstr=str(num)
+# length=len(newstr)
+# power=0
+# for i in newstr:
+#    power+=int(i)**length
+
+# if power == num:
+#    print(f"{num} is a Armstrong number")
+# else:
+#    print(f"{num} is not a Armstrong number")
+
 
 
